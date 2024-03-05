@@ -1,4 +1,10 @@
 @tailwind base;
+@layer base {
+    html {
+        @apply font-serif;
+        scroll-behavior: smooth;
+    }
+}
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;

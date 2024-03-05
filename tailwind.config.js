@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     screens: {
-      sm: '599px',
-      md: '1023px',
-      lg: '1440px',
+      sm: '320px',
+      md: '768px',
+      lg: '1024px',
     },
     colors: {
       'black': '#000000',
@@ -28,6 +28,9 @@ export default {
         '128': '32rem',
         '144': '36rem',
       },
+      backgroundImage: {
+        'home-bg': 'url("/public/assets/sample1.png")',
+      }
     }
   },
   plugins: [],
