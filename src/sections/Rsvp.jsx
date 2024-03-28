@@ -1,15 +1,14 @@
-import { Component } from 'react';
-import Footer from '../components/Footer';
+import Form from '../components/Form';
 
-class Rsvp extends Component {
-    render() {
+function Rsvp() {
 
-        return (
-            <>
-                <Footer/>
-            </>
-        );
-    }
+    return (
+        <div id='rsvp' className='pb-[6%]'>
+            <img src='/assets/sample2.png' className='mx-auto w-[79%]'/>
+            <div className='font-sans text-brown text-[350%] text-center my-[3%]'>RSVP</div>
+            <Form/>
+        </div>
+    );
 }
 
 export default Rsvp;

@@ -1,15 +1,10 @@
-import { Component } from 'react';
+function Home() {
 
-class Home extends Component {
-    render() {
-
-        return (
-            <div className='h-screen'>
-                <div className='bg-home-bg bg-cover h-[calc(73%)] mt-[calc(4%)]'>
-                </div>
-            </div>
-        );
-    }
+    return (
+        <div className='h-screen'>
+            <div className='bg-home-bg bg-cover h-[73%] mt-[4%]'></div>
+        </div>
+    );
 }
 
 export default Home;

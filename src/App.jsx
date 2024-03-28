@@ -5,6 +5,7 @@ import Location from './sections/Location'
 import Registry from './sections/Registry'
 import Rsvp from './sections/Rsvp'
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Location/>
       <Registry/>
       <Rsvp/>
+      <Footer/>
     </>
   )
 }

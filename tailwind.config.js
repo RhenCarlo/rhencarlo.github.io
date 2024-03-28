@@ -13,6 +13,7 @@ export default {
     colors: {
       'black': '#000000',
       'white': '#ffffff',
+      'gray': '7A7A7A',
       'brown-dark': '#623B22',
       'brown': '#A67B5B',
       'brown-light': '#D8B48F',
@@ -29,7 +30,7 @@ export default {
         '144': '36rem',
       },
       backgroundImage: {
-        'home-bg': 'url("/public/assets/sample1.png")',
+        'home-bg': 'url("/assets/sample1.png")',
       }
     }
   },
