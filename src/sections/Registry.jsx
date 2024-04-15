@@ -1,27 +1,21 @@
-function Registry() {
+const Registry = (props) => {
 
-        return (
-            <div id='registry' className='py-[6%] px-[10%]'>
-                <div className='text-center'>
-                    <div className='text-[130%] mb-[2%]'>Gift Registry</div>
-                    <div className='px-[7%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et turpis vitae nunc posuere mattis. Proin nec semper erat. Mauris ac orci nibh. Aenean eros lacus, finibus vitae diam eu, tempor blandit diam.</div>
-                </div>
-                <div className='flex justify-around mt-[4.5%]'>
-                    <div>
-                        <div className='font-sans text-brown text-[300%] text-center mb-[3%]'>Bank</div>
-                        <img src='/assets/image 4.png'/>
-                    </div>
-                    <div>
-                        <div className='font-sans text-brown text-[300%] text-center mb-[3%]'>Bank</div>
-                        <img src='/assets/image 4.png'/>
-                    </div>
-                    <div>
-                        <div className='font-sans text-brown text-[300%] text-center mb-[3%]'>Bank</div>
-                        <img src='/assets/image 4.png'/>
-                    </div>
-                </div>
+    return (
+        <div id='registry' className='bg-cream py-[6%] px-[10%] scroll-m-[107px]'>
+            <div className='text-center'>
+                <div className='text-[130%] mb-[2%]'>{props.data.section[3].alias}</div>
+                <div className='px-[7%] sm:px-0'>Your presence and prayers on our big day are all we ask for! However, should you wish to help us celebrate with a gift,<br/>please find our registry information below.</div>
             </div>
-        );
-    }
+            <div className='lg:flex justify-evenly mt-[4.5%]'>
+                {props.data.qr && props.data.qr.map((o, i) => {
+                    return <div key={i}>
+                        <div className='font-sans text-brown text-[250%] text-center mb-[3%]'>{o.name}</div>
+                        <img src={o.photo} className="sm:mx-auto"/>
+                    </div>
+                })}
+            </div>
+        </div>
+    );
+}
 
 export default Registry;

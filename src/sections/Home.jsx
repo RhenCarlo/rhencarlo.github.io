@@ -1,8 +1,8 @@
-function Home() {
+const Home = () => {
 
     return (
-        <div className='h-screen'>
-            <div className='bg-home-bg bg-cover h-[73%] mt-[4%]'></div>
+        <div id='home' className='h-screen relative'>
+            <div className='lg:bg-home-bg bg-home-bg-sm bg-cover h-full lg:h-[73%] lg:mt-[4%]'></div>
         </div>
     );
 }

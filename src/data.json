@@ -1,0 +1,76 @@
+{
+
+    "title": {
+        "one": "Rhenalyn & Carlo Angelo",
+        "two": "Rhenalyn &\nCarlo Angelo",
+        "hashtag": "#ForeveRHENeverWithCARLO"
+    },
+    "section": [
+        {"name": "Invitation", "nav": true, "link": "#invitation"},
+        {"name": "Location", "nav": true, "link": "#location", "alias": "Ceremony & Reception"},
+        {"name": "Gallery", "nav": true, "link": "#gallery"},
+        {"name": "Registry", "nav": true, "link": "#registry", "alias": "Gift Registry"},
+        {"name": "FAQs", "nav": true, "link": "#faq", "alias": "Frequently Asked Questions"},
+        {"name": "Prenup Photos", "nav": false},
+        {"name": "Wedding Photos", "nav": false}
+    ],
+    "invitation": [
+        {"id": 1, "photo": "https://lh3.googleusercontent.com/pw/AP1GczMUF9lq_qEG3j1tiJftMfIc0iNzTdms2mGGQoE-ogXIhIqh9iNemGrcbeeaPCscOPDOnoDTvWKpXmT-kpaIEbhpda4RbExA_pM8Or2vp818ck840oo=w2400"},
+        {"id": 2, "photo": "https://lh3.googleusercontent.com/pw/AP1GczMjAq5IrMgg5FYbRlPKldZiuE53c0lWANAI3zRaWFX2N1JKmKkxN28U2D--MdswBsgPhDTtEj7bXGwayx0T2O85pN9P7WQ6iq27ghBzJVbdE7idx9A=w2400"},
+        {"id": 3, "photo": "https://lh3.googleusercontent.com/pw/AP1GczPabpOCJAKFvbZ6GT8vG6ngcVYr-vgJy9Ji9zZoLf2Ng_q0MiOEAZWS8dY5IKzBSHHa-YD9StKDVY7Byoc_Uc-Ec2-LyLUxCi3hvP12pKB3SyEN5ag=w2400"},
+        {"id": 4, "photo": "https://lh3.googleusercontent.com/pw/AP1GczPfY9e-kURwowbAJTEkoNI9e-6SafjbYaXPWzTP1yH5mInp8NionUKwFfP1rOiyjBj82eelHzd5e1Yp3Yg0j0gNBnBV3BxAxAKK0RyNW2WBD87UmFU=w2400"},
+        {"id": 5, "photo": "https://lh3.googleusercontent.com/pw/AP1GczP_BQ9HEhkpiCbNctnNMxSg2koY6TY6pIrjG_3qq12SF1_JXQstIH_Gxve6oXOH9IEMVJ82Squqv8YVYv0QE8beGUxOS7z_3F3R1l_Bs8ZGdps5yD0=w2400"},
+        {"id": 6, "photo": "https://lh3.googleusercontent.com/pw/AP1GczMFxZZp2M2NBT3JJ4ZKHaZ-thK-EoMeYozyRWqNRXiQaYKEia_gmeSAGqUm_aHz417u3Zz1LixgsF5px_oTm0S9XXs0bf_oCtCv-bKbvoNR4YsQ9sk=w2400"},
+        {"id": 7, "photo": "https://lh3.googleusercontent.com/pw/AP1GczNvXZH7gEPm9c1HfFZd-xLvuU3NyRqgYj6kL7KsRakUx9yu4B_9YfJmPFu4YHsOqna6BbIUy6ULlvzwcccS0qK0UcKa2fo5pZ9ReUw9YtkuFAobAew=w2400"},
+        {"id": 8, "photo": "https://lh3.googleusercontent.com/pw/AP1GczObHrQX7qkAvHejFzHWQ1JeenvnpZ3x8P1GQTQsZqCSYbrMeR0SytFMaBEMMKimvykU9CQaVB3QexcOVM93Odpr48KLT7nTS8iS2mCgYgH4xX8YMyw=w2400"}
+    ],
+    "location": [
+        {"name": "Alta Guia", "text": "37 Bagong Calzada Street,\nUsusan, Taguig City, 1632", "text2": "Landmarks: Garden of Memories / Ususan Barangay Hall / Villa Rosalinda / Lake View"},
+        {"name": "Getting there:", "text": "If you're not planning to use your vehicle, we recommend taking a taxi or ride-hailing services such as Grab and Angkas to get to Alta Guia for your convenience. However, if you still prefer commuting, please refer to the guide below."},
+        {"name": "Grab Pin Location:", "text": "Alta Guia (24, Bagong Calzada Street, Ususan, Taguig City)"},
+        {"name": "Angkas Pin Location:", "text": "Alta Guia (Taguig, Metro Manila)"},
+        {"name": "Via commute:", "text": "If you're coming from EDSA, take the MRT to Guadalupe Station. Go to the Guadalupe Terminal and take the jeepney going to Pateros. Once you arrive in Pateros, walk towards Mercury Drug (B.Morcilla cor. M.Almeda). From there, take the jeepney going to B.Bayan/Bicutan and get off at Ususan (tell the driver to drop you off near Ususan Barangay Hall). From there, ride a trike going to Alta Guia."}
+    ],
+    "prenup": [
+        {"id": 1, "photo":"https://lh3.googleusercontent.com/pw/AP1GczNJ0EEdVzUQmhFc817xlGZvTSKiw_GedWcJsMScqbMR-lJB0oOh-6fqRN_tZtRKPtAZZ6DLoWxYMHrVAGeCxJ-hhwUwD1ux3bhMlLiKcAJJlf7V0nQ=w2400"},
+        {"id": 2, "photo":"https://lh3.googleusercontent.com/pw/AP1GczParGURDdLoQzvV1s52ErASfAwKvYAHXVZ0wFDWP6vklMaRO1cm9UONr8s7GvOD7z2_wGoDNGjybFClGkUy1MfiKSEAxzhNTMu0WWUCcR2bLE2Mp8c=w2400"},
+        {"id": 3, "photo":"https://lh3.googleusercontent.com/pw/AP1GczMsOWOXo1g0DCj1Qu9r16fgWyC0G3RxN6KaYyrFae0FTmW_JDEHlVGmf1Rj3UVnwz91UJlJNzLwloEU39YUnHJMuDjedBD1Kfut-w-0FhWpeZEGoiM=w2400"},
+        {"id": 4, "photo":"https://lh3.googleusercontent.com/pw/AP1GczMk4lOt_es37zzRRpRv1VX32T29_Ig_egZqNiGT8FCc5py4lq5LBakGnth5SJMv1fBb06qfXaZ14dCSKoc6VqMpguzh9OMuKHiRQfYgroVJsuQ7cfM=w2400"},
+        {"id": 5, "photo":"https://lh3.googleusercontent.com/pw/AP1GczOvU6AazsCGQi25XV1gdfgDUfWm6kROCaBAUxHeZD5ESx8C3cmbNniH-kAA51jt-m3vrLWBmrsvFIiRRp6OtjY3al0DpxMwGdJ-lcYzq24OZLmf9Gs=w2400"},
+        {"id": 6, "photo":"https://lh3.googleusercontent.com/pw/AP1GczPCivqOUEF-RwiHVazWP-OSzflVqUgrKZ64EoS9rAvPjXtFoMKg8PfO9EHnoWqlyaIOEGooeYWBBfHWgyR12V4bAZPMs_tRv_cbPDKlfOcbKT_Vo5s=w2400"},
+        {"id": 7, "photo":"https://lh3.googleusercontent.com/pw/AP1GczP_G4xDZ75n6UFb4NG3HJVCq00b-NQSrhW292BFoKY4kZ8GjYfl0TLnyFMrioK7gqaoEDtM5Yd54r1ITZiZfIkgpX2PlN_7JF0Mt3E-ZFDMYRgTxF8=w2400"},
+        {"id": 8, "photo":"https://lh3.googleusercontent.com/pw/AP1GczMh0BV-jpuCQ5J32efmGeFBst5bK2OscGP4YJvQcdGAESaw9lDD6X8_XFCD66u02NEl5g2YzmwoBc-SJVTBgWQ7EZDpmlu7d5JBiDN78KvY9upPD6k=w2400"},
+        {"id": 9, "photo":"https://lh3.googleusercontent.com/pw/AP1GczPE7y-4-OQSyp5woUnwN4fE4PEQO86Z0DVR5lnG_ZXPbbREYeyPAwba3iyV4eChIIYsJvInA5LkNMWF-BryEgDaTua4DNI_uD7xCGQdL_En54lI9zA=w2400"},
+        {"id": 10, "photo":"https://lh3.googleusercontent.com/pw/AP1GczMzxcHVwCZ9YnCxg4FRTjeDIi7uSRy4CFAhggh1GdJAiL_DDLtFktavBetG452zXJwUML2XElbbvYl00n7IHo-_CyiZYFguc8jIlp3Ql-P5PzPX9-M=w2400"},
+        {"id": 11, "photo":"https://lh3.googleusercontent.com/pw/AP1GczOZ55voel8NczHIM8NhTG-LF7JU9YZse6j_93ONtG18IUNEjoZSPfomZKNTrOnPjYXqV9ZV4Ung66OqZfSunJig8g747FvXN-MhC64qNGjndV7w5YA=w2400"},
+        {"id": 12, "photo":"", "album": "https://photos.app.goo.gl/o6YvG8qaBgf9WhCU7"}
+    ],
+    "qr": [
+        { "name": "Bank 1", "photo": "/assets/image 4.png"},
+        { "name": "Bank 2", "photo": "/assets/image 4.png"}
+    ],
+    "unplugged": "https://lh3.googleusercontent.com/pw/AP1GczPcbfsPt5NTN6-2uOaBSv1jZy3ItHsjeqo4IUjagBlPs3hFwtiBH3TFcPpOIdeaJCPemBQ02N9Mw8v-IEnhPBtuvVDsX8rUVBquvtQQebjhjR8IXpI=w2400",
+    "faq": [
+        {"i": "/assets/camera.svg","q": "Can I take photos/videos during ceremony?", "a": "Our ceremony is unplugged and we plan to keep it solemn. We would love to capture your faces and not your devices.\n\nWe invite you to be fully present with us. After the ceremony, feel free to take as many photos/videos as you want! 🤎"},
+        {"i": "/assets/car.svg","q": "Where can I park?", "a": "Alta Guia has their parking lot beside the entrance."},
+        {"i": "/assets/people.svg","q": "Can I bring a date/plus one?", "a": "If you have plus one listed on your invite and when you RSVP, then YES!"},
+        {"i": "/assets/candy.svg","q": "Are kids welcome?", "a": "We love your little ones! However, we have decided to keep our wedding an adult-only event with the exception of the ones that are 9 years old and above.\n\nTo give all our guests the opportuniity to celebrate, dance, and drink without having to worry about little eyes and ears."},
+        {"i": "/assets/chair.svg","q": "Can we sit anywhere at the Reception?", "a": "It took us a lot of effort and discussion to finish the seating arrangement which is planned for everyone's convenience and network preferences.\n\nYou will be seated along with family and friends."},
+        {"i": "/assets/chat.svg","q": "Can I post wedding moments in social media?", "a": "Of course! Help us capture the love after the ceremony.\nPlease tag us using the hashtag #ForeveRHENeverWithCARLO"},
+        {"i": "/assets/bubble.svg","q": "Can't make it? Change of heart?", "a": "If you RSVP'd YES but can't come, or RSVP's NO but a change of circumstances, let us know ASAP so we can plan accordingly."},
+        {"i": "/assets/clock.svg","q": "When is the appropriate time to leave?", "a": "We aim to end the program by 5PM. Please do not eat and run. Your presence is the best gift you could give us. Please stay until the end of our reception program.\n\nIf you have to leave early, we'd love to thank and say goodbye before you leave, but perhaps not until our Same Day Edit video is played."}
+    ],
+    "footer": "© 2024",
+    "assets": {
+        "flower": "https://lh3.googleusercontent.com/pw/AP1GczPkRX5DUziOzZHNuPwjn2VTdivwEHiQj2gOC0mJDKfCwa-bOYMSfqt4vQ-5h9oMSxFVJpaz4oLn3UH-br_oZTRcykJV_OoL--6pe5eW-xW0jni8h1Y=w2400",
+        "white": "/assets/menu-white.svg",
+        "brown": "/assets/menu-brown.svg",
+        "logo": "https://lh3.googleusercontent.com/pw/AP1GczODUn9fGrMuwI4x2BmxpDtKiOA-Jl-m2s-CqDCDipwVMAgqldLPpvVvAnjxS_vTN5oQafpOtl_AorImpq23O-Y4oBGmP6HIUjeY7H21R43t8i8pbSs=w2400",
+        "id": 1, "photo": "https://lh3.googleusercontent.com/pw/AP1GczPVA00OVS5fiqzO5up7F5mTDNZVtZXiaCXooM-4H2l3Cas2Qu-roq15lvMXbv6J276x2_XUrPdpDvdyPEvDPPP7GjNpjlaoozF6LyzPbcIAth3aJ9o=w2400",
+        "id2": 2, "photo2": "https://lh3.googleusercontent.com/pw/AP1GczNrWDPOnvPPCPQQmUruQHePGorabx7a2swAathfvo6ujoq9E39QDJTZ9o2ucgVe0ORgD4OoseJWxFbxWu5zVwQgvw5w8ToSGPELdq-rJej8lt-wnaQ=w2400",
+        "venue": "https://lh3.googleusercontent.com/pw/AP1GczP_TskHMXk2LbRx5DQZkMRWHUL3kU1TfiSH5pD6LlFW_lVtgLPUvaGeu06l971_XF0Qa02hHjv9tjFJ_yqYlokJSLdVbAej4ZDGmJkQrMNLRgLegXw=w2400",
+        "leaves1": "https://lh3.googleusercontent.com/pw/AP1GczNyobK4E5ExRB7TbvBMcY5UWP5JENnxNmqdp0Onh-JNnr88SCh8Kp9ceqT6dHtO78GayL2Gt67DJj9zXcOMIT-DTsuAnD0w8owqB81fOg6ehUrh4eI=w2400",
+        "leaves2": "https://lh3.googleusercontent.com/pw/AP1GczOrgZ01IBYOYTywoFJZSMDD5RVSEMxOFlwqWG6ndlTzHQg6zrONGXXFh49A1bFnDmCJGMek3bwc3wBI7ufFz_OycDLFrgrRYFMzgbQO1j2t3uHj_SM=w2400",
+        "arrow": "/assets/arrow03.svg"
+    }
+}

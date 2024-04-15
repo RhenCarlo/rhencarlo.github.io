@@ -21,7 +21,7 @@ export default {
       'cream': '#FFE4C4',
     },
     fontFamily: {
-      sans: ['"Birthstone Bounce"', 'sans-serif'],
+      sans: ['Anastasia','"Birthstone Bounce"', 'sans-serif'],
       serif: ['Poly', 'serif'],
     },
     extend: {
@@ -30,7 +30,9 @@ export default {
         '144': '36rem',
       },
       backgroundImage: {
-        'home-bg': 'url("/assets/sample1.png")',
+        'home-bg': 'url("https://lh3.googleusercontent.com/pw/AP1GczM16rOxa3SYoXCXBQeiODIVV5Mm7inoFuXq7VFL24rFm1QOOBhzVNLk82qhTwr-_RmbAZ_cNbEHgUbHzLlDLSLNx7BaHATApX8zef_w24J68FQEKH8=w2400")',
+        'home-bg-sm': 'url("https://lh3.googleusercontent.com/pw/AP1GczMR949zr2Bqqg1g75jwWYI_PZEOfAVa083ELdzw5Ab4GKTgeJfhIodYPWeZs4-oKACVoy78h-7pQPIaIi3V8gpiKQs6uNS5H6I7Zkr97E2QfuW53h4=w2400")',
+        'board': 'url(assets/background.jpg)'
       }
     }
   },

@@ -12,4 +12,13 @@
 #root {
     width: 100%;
     margin: 0;
-  }
+}
+
+@font-face {
+    font-family: "Anastasia";
+    src: url("./assets/AnastasiaScriptRegular.ttf");
+}
+
+.react-multiple-carousel__arrow {
+    background-color: rgba(0,0,0,0.35);
+}
