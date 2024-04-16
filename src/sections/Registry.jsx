@@ -8,7 +8,7 @@ const Registry = (props) => {
             </div>
             <div className='lg:flex justify-evenly mt-[4.5%]'>
                 {props.data.qr && props.data.qr.map((o, i) => {
-                    return <div key={i}>
+                    return <div key={i} className="lg:mb-0 mb-[3%]">
                         <div className='font-sans text-brown text-[250%] text-center mb-[3%]'>{o.name}</div>
                         <img src={o.photo} className="sm:mx-auto"/>
                     </div>

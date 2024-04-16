@@ -12,6 +12,7 @@ const PrenupCarousel = (props) => {
                 autoPlaySpeed={3000}
                 centerMode={false}
                 containerClass="lg:pl-[25%] overflow-hidden"
+                className="z-10"
                 itemClass="px-[0.1%] flex items-center"
                 keyBoardControl
                 minimumTouchDrag={80}
@@ -42,7 +43,7 @@ const responsive = {
     },
     tablet: {
       breakpoint: { max: 1023, min: 768 },
-      items: 2,
+      items: 1,
     },
     mobile: {
       breakpoint: { max: 767, min: 0 },

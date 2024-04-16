@@ -8,12 +8,11 @@ const Nav = (props) => {
 
     useEffect (() => {
         document.addEventListener("scroll", () => {
-            let nav = document.getElementById('nav-lg').offsetTop;
-            let lgScrolled = nav - document.documentElement.scrollTop;
-            let scrolled = document.documentElement.scrollTop;
+            let lgNavTop = document.getElementById("nav-lg").getBoundingClientRect().top;
+            let smNav = document.documentElement.scrollTop;
 
-            lgScrolled <= 0 ? setLgPos('moved') : setLgPos('top');
-            scrolled > 0 ? setPos('moved') : setPos('top');
+            lgNavTop <= 0 ? setLgPos("moved") : setLgPos("top");
+            smNav > 0 ? setPos('moved') : setPos('top');
         })
     },[])
 
@@ -43,14 +42,29 @@ const Nav = (props) => {
 
             {/* mobile and tablet */}
 
-            <div id='nav' className={'lg:hidden fixed top-0 left-0 p-[3.5%] text-[140%] w-full flex justify-between' + (pos == 'top' ? ' text-white' : ' bg-white text-brown')}>
-                <div>{props.data.title.hashtag}</div>
-                <div onClick={handleNav}>
-                    <img src={pos == 'top' ? props.data.assets.white : props.data.assets.brown} className='inline'/>
+            <div id='nav' className={'lg:hidden fixed top-0 md:p-7 p-3.5 w-screen flex justify-between z-20' + (pos == 'top' ? ' text-white' : ' bg-white text-brown-dark')}>
+                <div className="md:text-3xl text-xl">{props.data.title.hashtag}</div>
+                <img onClick={handleNav} src={pos == 'top' ? props.data.assets.white : props.data.assets.brown}/>
+                <div className={
+                    open
+                    ? "fixed right-0 top-0 md:w-96 w-60 h-screen bg-white text-black ease-in-out duration-500 md:py-8 py-4 md:pl-14 pl-8 md:pr-7 pr-4"
+                    : "ease-in-out md:w-96 w-60 duration-500 fixed top-0 bottom-0 md:-right-96 -right-60"
+                    }
+                >
+                    <img onClick={handleNav} src={props.data.assets.close} className='ml-auto md:mb-10 mb-5'/>
+                    <ul>
+                        <li onClick={handleNav} className="active:text-brown md:mb-10 mb-5 text-base md:text-xl">
+                            <a href="#" className="active:text-brown">Home</a>
+                        </li>
+                        {props.data.section && props.data.section.map((o, i) => {
+                            if (o.nav == true){
+                                return <li onClick={handleNav} className="md:mb-10 mb-5 text-base md:text-xl" key={i}>
+                                            <a href={o.link} className="active:text-brown">{o.name}</a>
+                                        </li>
+                            }
+                        })}
+                    </ul>
                 </div>
-            {/* <div className="lg:hidden abosolute h-screen w-[50%] bg-cream">
-hehehehhe
-            </div> */}
             </div>
             
         </>

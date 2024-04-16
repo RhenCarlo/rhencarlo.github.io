@@ -4,7 +4,7 @@ import HTMLFlipBook from "react-pageflip";
 const Invitation = (props) => {
 
     const [,setPage] = useState(0);
-    const bookRef = useRef(null)
+    const bookRef = useRef()
     
     const next = () => {
         bookRef.current.pageFlip().flipNext()
@@ -14,7 +14,7 @@ const Invitation = (props) => {
         bookRef.current.pageFlip().flipPrev();
     };
 
-    const onFlip = (e) => {
+    const pageFlip = (e) => {
         setPage(e.data);
     };
 
@@ -27,16 +27,17 @@ const Invitation = (props) => {
                 </button>
                 <HTMLFlipBook width={500} 
                     height={700}
-                    minWidth={200}
-                    minHeight={250}
+                    minWidth={300}
+                    minHeight={500}
                     size="stretch"
-                    maxShadowOpacity={0.5} 
-                    mobileScrollSupport={true}
+                    maxShadowOpacity={0.5}
+                    renderOnlyPageLengthChange={true}
+                    usePortrait={true}
                     ref={bookRef}
-                    onFlip={onFlip}
-                    className="lg:mx-[2%]">
+                    onFlip={pageFlip}
+                    className="lg:mx-[2%] w-full mx-auto">
                     {props.data.invitation.map((o) => {
-                        return <div className="demoPage" key={o.id}>
+                        return <div key={o.id}>
                             <img src={o.photo}/>
                         </div>
                     })}

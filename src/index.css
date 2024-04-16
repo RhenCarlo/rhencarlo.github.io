@@ -1,5 +1,13 @@
 @tailwind base;
 @layer base {
+    @font-face {
+        font-family: "Anastasia";
+        src: url("./fonts/AnastasiaScript.ttf") format("truetype"),
+        url("./fonts/AnastasiaScript.woff") format("woff"),
+        url("./fonts/AnastasiaScript.svg") format("svg");
+        font-weight: normal;
+        font-style: normal;
+    }
     html {
         @apply font-serif;
         scroll-behavior: smooth;
@@ -14,11 +22,10 @@
     margin: 0;
 }
 
-@font-face {
-    font-family: "Anastasia";
-    src: url("./assets/AnastasiaScriptRegular.ttf");
-}
-
 .react-multiple-carousel__arrow {
     background-color: rgba(0,0,0,0.35);
+}
+
+.stf__block{
+    height: 1000px;
 }
