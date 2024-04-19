@@ -19,10 +19,10 @@ const Invitation = (props) => {
     };
 
     return (
-        <div id='invitation' className="py-[6%] lg:px-[15%]">
-            <div className='font-sans text-brown text-[350%] sm:text-[250%] text-center mb-[3%]'>Invitation</div>
-            <div className="flex sm:px-[5%]">
-                <button type="button" onClick={prev} className="lg:w-[6%] w-[7%]">
+        <div id='invitation' className="lg:py-24 pb-16 lg:px-40 scroll-m-[5rem]">
+            <div className='font-sans text-brown text-5xl text-center lg:mb-12 md:mb-8 mb-1'>{props.data.section[0].name}</div>
+            <div className="flex sm:px-6">
+                <button type="button" onClick={prev} className="lg:w-16 w-14">
                     <img src={props.data.assets.arrow} className="scale-x-[-1]"/>
                 </button>
                 <HTMLFlipBook width={500} 
@@ -35,14 +35,14 @@ const Invitation = (props) => {
                     usePortrait={true}
                     ref={bookRef}
                     onFlip={pageFlip}
-                    className="lg:mx-[2%] w-full mx-auto">
+                    className="mx-2 w-full mx-auto cursor-pointer">
                     {props.data.invitation.map((o) => {
                         return <div key={o.id}>
                             <img src={o.photo}/>
                         </div>
                     })}
                 </HTMLFlipBook>
-                <button type="button" onClick={next} className="lg:w-[6%] w-[7%]">
+                <button type="button" onClick={next} className="lg:w-16 w-14">
                     <img src={props.data.assets.arrow}/>
                 </button>
             </div>

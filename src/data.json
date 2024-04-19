@@ -10,9 +10,7 @@
         {"name": "Location", "nav": true, "link": "#location", "alias": "Ceremony & Reception"},
         {"name": "Gallery", "nav": true, "link": "#gallery"},
         {"name": "Registry", "nav": true, "link": "#registry", "alias": "Gift Registry"},
-        {"name": "FAQs", "nav": true, "link": "#faq", "alias": "Frequently Asked Questions"},
-        {"name": "Prenup Photos", "nav": false},
-        {"name": "Wedding Photos", "nav": false}
+        {"name": "FAQs", "nav": true, "link": "#faq", "alias": "Frequently Asked Questions"}
     ],
     "invitation": [
         {"id": 1, "photo": "https://lh3.googleusercontent.com/pw/AP1GczMUF9lq_qEG3j1tiJftMfIc0iNzTdms2mGGQoE-ogXIhIqh9iNemGrcbeeaPCscOPDOnoDTvWKpXmT-kpaIEbhpda4RbExA_pM8Or2vp818ck840oo=w2400"},
@@ -25,7 +23,7 @@
         {"id": 8, "photo": "https://lh3.googleusercontent.com/pw/AP1GczObHrQX7qkAvHejFzHWQ1JeenvnpZ3x8P1GQTQsZqCSYbrMeR0SytFMaBEMMKimvykU9CQaVB3QexcOVM93Odpr48KLT7nTS8iS2mCgYgH4xX8YMyw=w2400"}
     ],
     "location": [
-        {"name": "Alta Guia", "text": "37 Bagong Calzada Street,\nUsusan, Taguig City, 1632", "text2": "Landmarks: Garden of Memories / Ususan Barangay Hall / Villa Rosalinda / Lake View"},
+        {"name": "Alta Guia", "text": "Bagong Calzada Street,\nUsusan, Taguig City", "text2": "Landmarks: Garden of Memories / Ususan Barangay Hall / Villa Rosalinda / Lake View"},
         {"name": "Getting there:", "text": "If you're not planning to use your vehicle, we recommend taking a taxi or ride-hailing services such as Grab and Angkas to get to Alta Guia for your convenience. However, if you still prefer commuting, please refer to the guide below."},
         {"name": "Grab Pin Location:", "text": "Alta Guia (24, Bagong Calzada Street, Ususan, Taguig City)"},
         {"name": "Angkas Pin Location:", "text": "Alta Guia (Taguig, Metro Manila)"},
@@ -46,8 +44,8 @@
         {"id": 12, "photo":"", "album": "https://photos.app.goo.gl/o6YvG8qaBgf9WhCU7"}
     ],
     "qr": [
-        { "name": "Bank 1", "photo": "/assets/image 4.png"},
-        { "name": "Bank 2", "photo": "/assets/image 4.png"}
+        { "name": "BPI", "photo": "https://lh3.googleusercontent.com/pw/AP1GczMMajadQVO7Cw_1h4wsSrB-7ke5kFLun-63w1IwRVjnTsHEeYuy1qmk5LlrJexUlLkYWOY2V7HXGvAohKoplZCCqASiIF1KfYrQ3CmsNGgBaWHCwlY=w2400"},
+        { "name": "GCash", "photo": "https://lh3.googleusercontent.com/pw/AP1GczMrXADgTiQmudwdmS-bTNdUiFxF9GQTtYYYWuovrIg2K770xA2gVfITEBekBKdCzP_WBMeKZnN2Quv4be4cSzQkgp6Ov9xTLOiVoOe4wHGjdHykDeY=w2400"}
     ],
     "unplugged": "https://lh3.googleusercontent.com/pw/AP1GczPcbfsPt5NTN6-2uOaBSv1jZy3ItHsjeqo4IUjagBlPs3hFwtiBH3TFcPpOIdeaJCPemBQ02N9Mw8v-IEnhPBtuvVDsX8rUVBquvtQQebjhjR8IXpI=w2400",
     "faq": [
