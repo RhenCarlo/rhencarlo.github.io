@@ -22,11 +22,11 @@ const PrenupCarousel = (props) => {
             slidesToSlide={1}
             swipeable>
             {props.data.prenup.map((o) => {
-                if (o.photo != ""){
+                if (o.id != 12){
                     return <img src={o.photo} key={o.id}/>
                 }
                 else {
-                    return <a href={o.album} target="_blank" key={o.id} className="underline text-brown-dark mx-auto lg:mx-0">See full gallery</a>
+                    return <a href={o.album} onClick={() => window.open(o.album2)} target="_blank" key={o.id} className="underline text-brown-dark mx-auto lg:mx-0">See more Prenup and Wedding photos</a>
                 }
             })}
         </Carousel>

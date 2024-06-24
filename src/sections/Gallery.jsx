@@ -1,5 +1,4 @@
 import PrenupCarousel from "components/PrenupCarousel";
-import WeddingCarousel from "components/WeddingCarousel";
 
 const Gallery = (props) => {
 
@@ -9,7 +8,6 @@ const Gallery = (props) => {
             <img src={props.data.assets.leaves2} className="absolute right-20 mt-72 scale-y-[-1] hidden lg:block" />
             <div className='font-sans text-brown text-5xl text-center lg:mb-12 mb-8'>{props.data.section[2].name}</div>
             <PrenupCarousel {...props}/>
-            <WeddingCarousel {...props}/>
         </div>
     );
 }

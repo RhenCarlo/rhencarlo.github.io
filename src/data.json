@@ -41,7 +41,7 @@
         {"id": 9, "photo":"https://lh3.googleusercontent.com/pw/AP1GczPE7y-4-OQSyp5woUnwN4fE4PEQO86Z0DVR5lnG_ZXPbbREYeyPAwba3iyV4eChIIYsJvInA5LkNMWF-BryEgDaTua4DNI_uD7xCGQdL_En54lI9zA=w2400"},
         {"id": 10, "photo":"https://lh3.googleusercontent.com/pw/AP1GczMzxcHVwCZ9YnCxg4FRTjeDIi7uSRy4CFAhggh1GdJAiL_DDLtFktavBetG452zXJwUML2XElbbvYl00n7IHo-_CyiZYFguc8jIlp3Ql-P5PzPX9-M=w2400"},
         {"id": 11, "photo":"https://lh3.googleusercontent.com/pw/AP1GczOZ55voel8NczHIM8NhTG-LF7JU9YZse6j_93ONtG18IUNEjoZSPfomZKNTrOnPjYXqV9ZV4Ung66OqZfSunJig8g747FvXN-MhC64qNGjndV7w5YA=w2400"},
-        {"id": 12, "photo":"", "album": "https://photos.app.goo.gl/o6YvG8qaBgf9WhCU7"}
+        {"id": 12, "album": "https://photos.app.goo.gl/o6YvG8qaBgf9WhCU7", "album2": "https://photos.app.goo.gl/SxGkiYNanKxb1NNy7"}
     ],
     "qr": [
         { "name": "BPI", "photo": "https://lh3.googleusercontent.com/pw/AP1GczMMajadQVO7Cw_1h4wsSrB-7ke5kFLun-63w1IwRVjnTsHEeYuy1qmk5LlrJexUlLkYWOY2V7HXGvAohKoplZCCqASiIF1KfYrQ3CmsNGgBaWHCwlY=w2400"},
