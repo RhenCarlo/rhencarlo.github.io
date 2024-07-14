@@ -26,7 +26,7 @@ const PrenupCarousel = (props) => {
                     return <img src={o.photo} key={o.id}/>
                 }
                 else {
-                    return <a href={o.album} onClick={() => window.open(o.album2)} target="_blank" key={o.id} className="underline text-brown-dark mx-auto lg:mx-0">See more Prenup and Wedding photos</a>
+                    return <p key={o.id} className="text-brown-dark mx-auto lg:mx-0">See more <a className="underline" href={o.album} target="_blank">Prenup</a> and <a className="underline" href={o.album2} target="_blank">Wedding</a> photos</p>
                 }
             })}
         </Carousel>
